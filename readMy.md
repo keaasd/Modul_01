@@ -9,6 +9,7 @@ git config --global user.email “почта”
 git config --global core.safecrlf warn
 git config --global core.quotepath off
 git config --global init.defaultBranch main # Ветка по умолчанию
+
 windows
 
 git config --global core.autocrlf true
@@ -20,21 +21,13 @@ git config --global core.autocrlf input
 Действия при инициализации нового репозитория и при работе с ним
 инициализация git репозитория
 
-git init
+git init # текущее состоянеие репозитория
 
-текущее состоянеие репозитория
+git status # добавить в трек (отслеживаемые) файл или папку
 
-git status
+git add index.html # добавить все файлы из корня в трек
 
-добавить в трек (отслеживаемые) файл или папку
-
-git add index.html
-
-добавить все файлы из корня в трек
-
-git add .
-
-выполнить коммит (сделать слепок) текущего состояния проекта
+git add . # выполнить коммит (сделать слепок) текущего состояния проекта
 
 git commit -m "сообщение"
 
