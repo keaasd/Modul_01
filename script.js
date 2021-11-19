@@ -1,4 +1,5 @@
 'use strict';
+
 const productName = 'Рубашка';
 const quantity = 2;
 const productCategory = 'Одежда';
