@@ -1,4 +1,3 @@
-console.log("kz");
 const myWeight = 67;
 const speedLight = 3e8;
 
