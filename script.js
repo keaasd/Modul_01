@@ -40,6 +40,6 @@ console.log(typeof productName);
 console.log(typeof count);
 console.log(typeof productCategory); 
 console.log(typeof price);
-
+//
 console.log(`На складе ${count} единицы товара "${productName}" на сумму ${price * count}`);
 
