@@ -17,7 +17,7 @@ const rus = Number(prompt('Введите кол-во баллов по русс
 const informatika = Number(prompt('Введите кол-во баллов по информатике:'));
 
 let summa = +matematika + rus + informatika;
-console.log(matematika + rus + informatika);
+// console.log(matematika + rus + informatika);
     
 if (summa >=  ball) {
     console.log("Поздравляю, вы поступили на бюджет!")
