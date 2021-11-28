@@ -1,13 +1,16 @@
-const rain = Math.random() > 0.5 ? 1 : 0;
-if (rain === 1) {
-    console.log("Пошёл дождь. Возьмите зонт!");
-}
+{
+    const rain = Math.round(Math.random(0, 1));
+    console.log(rain); 
 
-if (rain === 0) {
-    console.log("Дождя нет!");
+    if (rain === 1) {
+        console.log("Пошёл дождь. Возьмите зонт!")
+    } else {
+        console.log("Дождя нет!")
+    }
 }
-
 // const rain = (min, max) => {   const sum = Math.round(Math.random(min, max))    if (sum === 1) {     return console.log("Пошёл дождь. Возьмите зонт!");   }   return console.log("Дождя нет!"); }    rain(0, 1)
+
+// Math.random() > 0.5 ? 1 : 0;
 // 3я задача
 {
     const ball = 265;
