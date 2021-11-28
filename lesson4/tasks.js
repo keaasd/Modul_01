@@ -30,15 +30,30 @@
 }
 
     
-const bankomat = 100;
+
 const price = Number(prompt("сколько денег он хочет снять?")); 
-// 100
-if (price >100) {
-    const cash  = (price % 100 == 0); // true false
-    console.log("Возьмите деньги!");
+
+if  ((price % 100) === 0) { 
+    console.log('Возьмите ваши деньги');
 } else {
-    console.log("Сумма менее 100 руб!");
+    console.log('банкомат может выдавать купюры только номиналом 100р');
 }
+
+// if (price > 100) {
+    
+// }
+
+
+
+// console.log((price % 100) === 0);
+
+// else {
+//     console.log("Сумма менее 100 руб!");
+// }
 
 // const num = Number.isInteger(333 / 100) 
 // const notZero = 3.3 !== 0; 
+
+// (price >100) {
+//     const cash  = (price % 100 == 0);  
+//     console.log("Возьмите деньги!");
