@@ -16,19 +16,6 @@ console.log(`На складе ${count} единицы товара "${productNa
     };
 
 
-    
-    const bankomat = 100;
-    const price = Number(prompt("сколько денег он хочет снять?")); 
-    // 100
-    if (price >100) {
-        const cash  = (price / 100);
-        console.log("Возьмите деньги!");
-    } else {
-        console.log("Сумма менее 100 руб!");
-    }
-
-    // const num = Number.isInteger(333 / 100) 
-    // const notZero = 3.3 !== 0; 
 
 
 
