@@ -12,8 +12,26 @@ if (count > 0 && price > 0) {
 console.log(`На складе ${count} единицы товара "${productName}" на сумму ${price * count}`);
 }
     else {
-    console.log("Вы ввели некорректные данные");
+    console.log("Вы ввели некорректные данные")
+    };
+
+
+    
+    const bankomat = 100;
+    const price = Number(prompt("сколько денег он хочет снять?")); 
+    // 100
+    if (price >100) {
+        const cash  = (price / 100);
+        console.log("Возьмите деньги!");
+    } else {
+        console.log("Сумма менее 100 руб!");
     }
+
+    // const num = Number.isInteger(333 / 100) 
+    // const notZero = 3.3 !== 0; 
+
+
+
 
 // console.log(typeof productName);
 // console.log(typeof count);
